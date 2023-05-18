@@ -2,12 +2,26 @@ package task1;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("char: G");
-        System.out.println("integer: 89");
-        System.out.println("byte: 4");
-        System.out.println("short: 56");
-        System.out.println("float: 4.7333436");
-        System.out.println("double: 4.355453532");
-        System.out.println("long: 12121");
+        char ch;
+        ch = 'G';
+        System.out.println(ch);
+        int i;
+        i = 89;
+        System.out.println(i);
+        byte b;
+        b = 4;
+        System.out.println(b);
+        short sh;
+        sh = 56;
+        System.out.println(sh);
+        float f;
+        f = 4.7333436F;
+        System.out.println(f);
+        double d;
+        d = 4.355453532;
+        System.out.println(d);
+        long l;
+        l = 12121;
+        System.out.println(l);
     }
 }

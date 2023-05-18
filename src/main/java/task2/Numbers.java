@@ -2,9 +2,13 @@ package task2;
 
 public class Numbers {
     public static void main(String[] args) {
-        System.out.println(365 % 10);
-        System.out.println(365 / 10);
-        System.out.println(36 % 10);
-        System.out.println(365 / 100);
+        int a = 365;
+        int b = 10;
+        int c = 36;
+        int d = 100;
+        System.out.println(a % b);
+        System.out.println(a / b);
+        System.out.println(c % b);
+        System.out.println(a / d);
     }
 }
