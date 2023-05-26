@@ -17,28 +17,31 @@ public class Elf<name> {
         int age = 47;
     }
 
-        private void setName(String name) {
-            this.name = "Egor";
-            System.out.println(this.name);
-        }
-        private void setLastName() {
-            this.lastName = "Boyko";
-            System.out.println(this.lastName);
-        }
-        private void setColor() {
-            this.color = color;
-            System.out.println(this.color);
-        }
-        int weight1 = this.weight;
-        private void getWeight() {
-            this.weight = weight;
-            System.out.println(this.weight);
-        }
-        private void getAge() {
-            this.age = age;
-            System.out.println(this.age);
-        }
+
+    private void setName(String name) {
+        String name1 = this.name;
+        System.out.println(name1);
     }
 
-}
+    private void setLastName(String lastName) {
+        this.lastName = "Boyko";
+        System.out.println(this.lastName);
+    }
 
+    private void setColor(String color) {
+        this.color = color;
+        System.out.println(this.color);
+    }
+
+    int weight1 = this.weight;
+
+    private void getWeight(int weight) {
+        this.weight = weight;
+        System.out.println(this.weight);
+    }
+
+    private void getAge(int age) {
+        int age1 = this.age;
+        System.out.println(age1);
+    }
+}
